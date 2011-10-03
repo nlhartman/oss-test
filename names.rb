@@ -3,7 +3,8 @@ names = ["Jeff",
   "Robert",
   "Jeff 2.0",
   "Erik",
-  "Julian CP"
+  "Julian CP",
+  "Nico H"
 ]
 
 names.each {|n| puts "#{n} " + ( rand() > 0.5 ? "rocks!" : "doesn't rock as much :(" )} 
